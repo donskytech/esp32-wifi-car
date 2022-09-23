@@ -1,2 +1,2 @@
 # esp-robot-car
-An ESP (ESP8266/ESP32) robot car library
+An ESP32 Wifi Robot Car Library
