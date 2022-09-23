@@ -25,7 +25,8 @@
 	{
       "owner": "me-no-dev",
       "name": "AsyncTCP",
-      "platforms": "espressif32"
+      "platforms": "espressif32",
+	  "version": "1.1.1"
     }
   ]
 }
