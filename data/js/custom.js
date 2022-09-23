@@ -45,7 +45,7 @@ speedSettings.forEach((radio) =>
 
 function setDefaultSpeed() {
   console.log("Setting default speed to normal..");
-  let normalOption = document.getElementById("normal-option");
+  let normalOption = document.getElementById("option-2");
   normalOption.checked = true;
 }
 
