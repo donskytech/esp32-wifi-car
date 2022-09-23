@@ -18,9 +18,13 @@
   "platforms": ["espressif32"],
   "dependencies": [
     {
-      "owner": "esphome",
+      "owner": "me-no-dev",
       "name": "ESPAsyncWebServer",
-      "version": "^3.0.0",
+      "platforms": "espressif32"
+    },
+	{
+      "owner": "me-no-dev",
+      "name": "AsyncTCP",
       "platforms": "espressif32"
     }
   ]
