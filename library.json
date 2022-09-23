@@ -20,7 +20,8 @@
     {
       "owner": "me-no-dev",
       "name": "ESP Async WebServer",
-      "platforms": "espressif32"
+      "platforms": "espressif32",
+	  "version": "1.2.3"
     },
 	{
       "owner": "me-no-dev",
