@@ -19,7 +19,7 @@
   "dependencies": [
     {
       "owner": "me-no-dev",
-      "name": "ESPAsyncWebServer",
+      "name": "ESP Async WebServer",
       "platforms": "espressif32"
     },
 	{
