@@ -9,12 +9,12 @@ WifiCar::WifiCar(const int *newMotorPins, const int *newSpeedControlPins)
 {
     for (size_t i = 0; i < MOTOR_PIN_COUNT; i++)
     {
-        motorPins[i] = *newMotorPins + i;
+        motorPins[i] = *(newMotorPins + i);
     }
 
     for (size_t i = 0; i < SPEED_CONTROL_PIN_COUNT; i++)
     {
-        speedControlpins[i] = *newSpeedControlPins + i;
+        speedControlpins[i] = *(newSpeedControlPins + i);
     }
 }
 
@@ -63,7 +63,7 @@ void WifiCar::setMotorPinStatus(uint8_t *pinStatusPointer)
 {
     for (size_t iCtr = 0; iCtr < MOTOR_PIN_COUNT; iCtr++)
     {
-        digitalWrite(motorPins[iCtr], *pinStatusPointer + iCtr);
+        digitalWrite(motorPins[iCtr], *(pinStatusPointer + iCtr));
     }
 }
 
