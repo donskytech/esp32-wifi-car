@@ -26,7 +26,7 @@ class WifiCar
 private:
     // Motor Pin
     int motorPins[4] = {16, 17, 32, 33};
-    int speedControlpins[2] = {25, 26};
+    int speedControlpins[2] = {21, 22};
 
     const int freq = 2000;
     // PWM Channel frequency
